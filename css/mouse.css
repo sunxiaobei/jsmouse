@@ -1,0 +1,34 @@
+/**
+ *自定义鼠标右键菜单
+ **/
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+}
+
+.mouse_menu {
+    position: absolute;
+    z-index: 90;
+    border: 1px solid #AEAEAE;
+    background-color:#ffffff;
+    padding: 2px;
+    width: 120px;
+}
+
+.mouse_menu a {
+    display: block;
+    color: #325B8E;
+    text-indent: 12px;
+    text-decoration: none;
+    height: 26px;
+    line-height: 25px;
+    padding-right: 5px;
+}
+
+.mouse_menu a:hover {
+    background: #57B4E4;
+    color: #fff;
+    border-radius: 5px;
+}
